@@ -31,7 +31,8 @@ This tool is made to automate the task of checking vaccine availability so that 
   
   ```sh 
    unzip storage/downloads/VaxNotifier_release.zip
-   sh setup.sh```
+   sh setup.sh
+   ```
   *You may get prompt at 3-4 location during the installation
   First, At the beginning just press Enter on your Virtual Keyboard.
   Second and Third, Type 'Y' and press Enter.*
