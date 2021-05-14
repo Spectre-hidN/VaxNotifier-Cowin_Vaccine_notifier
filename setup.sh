@@ -12,6 +12,5 @@ apt-get install python -y
 apt-get install pip -y
 echo "\033[38;5;46mDownloading Packages...\033[0m"
 pip install requests
-termux-notification -t "System ready to run Notifier!" -content "Now, You can setup notifier and check for vaccine availability..."
 echo "\033[38;5;196mRestart Termux and type python VaxNotifier.py to run the tool\033[0m"
 rm setup.sh
