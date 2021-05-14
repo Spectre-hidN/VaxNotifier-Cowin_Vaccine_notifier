@@ -22,6 +22,7 @@ This tool is made to automate the task of checking vaccine availability so that 
 *Temux is needed to run this tool and Termux:API is needed to show notification and control device vibration*
 ##### 2. Open Termux and allow all permissions
 - *The first time when you will open Termux, it will take some time to set-up. After that you will get an interface similar to the below image*
+
  ![N|Solid](https://images2.imgbox.com/48/85/ygqQu6uM_o.jpeg "Install Termux")
 - Type the following command and hit enter, then allow the storage permission. We need this to move the script file to Termux's Home directory in order to execute it.
 ```sh
@@ -33,8 +34,12 @@ This tool is made to automate the task of checking vaccine availability so that 
   
   ```sh 
    unzip storage/downloads/VaxNotifier_release.zip
+  ```
+- Run setup by executing the below command to download and install requirements
+
+  ```sh
    sh setup.sh
-   ```
+  ```
   *You may get prompt at 3-4 location during the installation
   First, At the beginning just press Enter on your Virtual Keyboard.
   Second and Third, Type 'Y' and press Enter.*
