@@ -29,8 +29,9 @@ This tool is made to automate the task of checking vaccine availability so that 
 - You can download the zip/archive file from the release tab and Run the following command
   >*The below command is going to vary according to your download location. Most the device has the default download location as below. But, if you use third-party non-chromium browser then you may need to modify the below command to your download location.*
   
-  `unzip storage/downloads/VaxNotifier_release.zip
-   sh setup.sh`
+  ```sh 
+   unzip storage/downloads/VaxNotifier_release.zip
+   sh setup.sh```
   *You may get prompt at 3-4 location during the installation
   First, At the beginning just press Enter on your Virtual Keyboard.
   Second and Third, Type 'Y' and press Enter.*
