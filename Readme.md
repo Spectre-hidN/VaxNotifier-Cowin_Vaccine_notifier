@@ -24,9 +24,9 @@ This tool is made to automate the task of checking vaccine availability so that 
 - *The first time when you will open Termux, it will take some time to set-up. After that you will get an interface similar to the below image*
  ![N|Solid](https://images2.imgbox.com/48/85/ygqQu6uM_o.jpeg "Install Termux")
 - Type the following command and hit enter, then allow the storage permission. We need this to move the script file to Termux's Home directory in order to execute it.
-``sh
-termux-setup-storage
-``
+```sh
+ termux-setup-storage
+```
 ##### 3. Download Main files and Setup
 - You can download the zip/archive file from the release tab and Run the following command
   >*The below command is going to vary according to your download location. Most the device has the default download location as below. But, if you use third-party non-chromium browser then you may need to modify the below command to your download location.*
