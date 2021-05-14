@@ -1,4 +1,3 @@
-import requests
 import json
 import os
 import subprocess
@@ -13,9 +12,10 @@ try:
     if sys.argv[1] == '--setup':
         try:
             print("\033[38;5;46mDownloading and installing essentials...\033[0m")
-            subprocess.check_call(['apt-get', 'update', '-y'])
-            subprocess.check_call(['apt-get', 'upgrade', '-y'])
-            subprocess.check_call(['pkg', 'install', 'termux-api', '-y'])
+            subprocess.call(['apt-get', 'update', '-y'])
+            subprocess.call(['apt-get', 'upgrade', '-y'])
+            subprocess.call(['pkg', 'install', 'termux-api', '-y'])
+            subprocess.call(['pip', 'install', 'requests', '-y'])
             print('\033[38;5;46mProcess Done!\033[0m')
             print('\033[38;5;196mRestart Termux and run this without --setup flag\033[0m')
             sys.exit()
@@ -25,6 +25,12 @@ try:
 
 except Exception as Error:
     pass
+
+try:
+    import requests
+except:
+    print('\033[38;5;196mFatal Error:\033[0m Requests module not found! Try running this with --setup flag to fix missing packages.')
+    sys.exit(2)
 
 default_headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36",
                    "origin": "https://www.cowin.gov.in",
@@ -95,8 +101,6 @@ print("""
 \033[38;5;197m █░█ ▄▀█ ▀▄▀ █▄░█ █▀█ ▀█▀ █ █▀▀ █ █▀▀ █▀█
 \033[38;5;56m ▀▄▀ █▀█ █░█ █░▀█ █▄█ ░█░ █ █▀░ █ ██▄ █▀▄
             \033[38;5;21mCo\033[38;5;46mWin \033[38;5;51mVaccine \033[0mNotifier""")
-
-print('\n\033[38;5;196m++ \033[38;5;184mIf you are running this for the first time. Start this with --setup flag to install missing packages \033[38;5;196m++\033[0m')
 
 print("""
 \033[38;5;197m<< Choose from below >> \033[0m
