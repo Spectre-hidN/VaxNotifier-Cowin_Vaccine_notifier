@@ -15,7 +15,7 @@ try:
             subprocess.call(['apt-get', 'update', '-y'])
             subprocess.call(['apt-get', 'upgrade', '-y'])
             subprocess.call(['pkg', 'install', 'termux-api', '-y'])
-            subprocess.call(['pip', 'install', 'requests', '-y'])
+            subprocess.call(['pip', 'install', 'requests'])
             print('\033[38;5;46mProcess Done!\033[0m')
             print('\033[38;5;196mRestart Termux and run this without --setup flag\033[0m')
             sys.exit()
@@ -431,7 +431,7 @@ elif choice == '2':
                                     print(f'\033[38;5;171m       Available Date: \033[0m{str(session["date"])}')
                                     slot_string = ''
                                     for slot in session['slots']:
-                                        slot_string += f'{slot} '
+                                        slot_string += f'[{slot}] '
                                     print(f'\033[38;5;171m       Slots Available: \033[0m{slot_string}') 
                                     print(f'\033[38;5;171m       Approx Geo Location: \033[0m{get_approx_location(str(elmt["lat"]), str(elmt["long"]))}')
                                     print('-' * os.get_terminal_size()[0])
