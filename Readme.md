@@ -44,9 +44,9 @@ This tool is made to automate the task of checking vaccine availability so that 
  ##### 4. Running the tool
  - After you restarted termux, everytime you want to run the tool, type the following command and you're good to go!
  
-   `
+   ```sh
    python VaxNotifier.py
-   `
+   ```
 - Choose the desired options and set up the notifier according to your desire
 
   *__Do Not close termux from recent tab or notification panel or else, you will not get vaccine updates__*
