@@ -29,7 +29,7 @@ This tool is made to automate the task of checking vaccine availability so that 
  termux-setup-storage
 ```
 ##### 3. Download Main files and Setup
-- You can download the zip/archive file from the release tab and Run the following command
+- You can download the zip/archive file from the [release tab](https://github.com/n00b-spectre/VaxNotitfier-Cowin_Vaccine_notifier/releases) and Run the following command
   >*The below command is going to vary according to your download location. Most the device has the default download location as below. But, if you use third-party non-chromium browser then you may need to modify the below command to your download location.*
   
   ```sh 
