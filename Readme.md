@@ -23,7 +23,7 @@ This tool is made to automate the task of checking vaccine availability so that 
 3. Copy and paste the below nonsense in the termux and press __ENTER__!
 
 ```sh
-termux-setup-storage  && sleep 5 && unzip storage/downloads/VaxNotifier_release.zip && chmod +x setup.sh && ./setup.sh && echo 'RESTART THIS APP NOW! (Press exit from notification pannel)'
+termux-setup-storage && sleep 5 && unzip storage/downloads/VaxNotifier_release.zip && chmod +x setup.sh && ./setup.sh && echo 'RESTART THIS APP NOW! (Press exit from notification pannel)'
 ```
 *__Press Enter Whenever it asks you to Choose something.__* *Or just, press enter whenever it looks stuck...*
 
