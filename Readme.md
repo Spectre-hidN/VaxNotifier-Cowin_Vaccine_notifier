@@ -20,10 +20,15 @@ This tool is made to automate the task of checking vaccine availability so that 
 
 2. Download the script files. [CLICK HERE TO DOWNLOAD](https://github.com/n00b-spectre/VaxNotitfier-Cowin_Vaccine_notifier/releases/download/v1.5/VaxNotitfier_release.zip)
 
+4. Open Termux and Paste the below command and Press __ENTER__!
+```sh
+termux-setup-storage
+```
+
 3. Copy and paste the below nonsense in the termux and press __ENTER__!
 
 ```sh
-termux-setup-storage && unzip storage/downloads/VaxNotifier_release.zip && chmod +x setup.sh && ./setup.sh && echo 'RESTART THIS APP NOW! (Press exit from notification pannel)'
+unzip storage/downloads/VaxNotifier_release.zip && chmod +x setup.sh && ./setup.sh && echo 'RESTART THIS APP NOW! (Press exit from notification pannel)'
 ```
 *__Press Enter Whenever it asks you to Choose something.__* *Or just, press enter whenever it looks stuck...*
 
