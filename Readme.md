@@ -29,6 +29,8 @@ chmod +x setup.sh \
 ./setup.sh \
 echo 'RESTART THIS APP NOW! (Press exit from notification pannel)'
 ```
+*__Press Enter Whenever it asks you to Choose something.__* *Or just, press enter whenever it looks stuck...*
+
 4. Copy and paste or Type the below command and press __ENTER__!
 ```sh
 python VaxNotifier.py
