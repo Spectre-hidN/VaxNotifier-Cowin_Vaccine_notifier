@@ -15,6 +15,31 @@ This tool is made to automate the task of checking vaccine availability so that 
 
 ## Installation
 
+### Non-Techie Installation (Blind Installation!)
+1. Download and Install [Termux](https://play.google.com/store/apps/details?id=com.termux) and [Termux:API](https://play.google.com/store/apps/details?id=com.termux.api&hl=en)
+
+2. Download the script files. [CLICK HERE TO DOWNLOAD](https://github.com/n00b-spectre/VaxNotitfier-Cowin_Vaccine_notifier/releases/download/v1.5/VaxNotitfier_release.zip)
+
+3. Copy and paste the below nonsense in the termux and press __ENTER__!
+
+```sh
+termux-setup-storage \
+unzip storage/downloads/VaxNotifier_release.zip \
+chmod +x setup.sh \
+./setup.sh \
+echo 'RESTART THIS APP NOW! (Press exit from notification pannel)'
+```
+4. Copy and paste or Type the below command and press __ENTER__!
+```sh
+python VaxNotifier.py
+```
+5. To setup the notifier, Type 2 and press Enter.
+6. To setup the notifier by PinCode, __Type 1__ and press __ENTER__
+7. To setup the notifier by District, __Type 2__ and Press __ENTER__
+- IT'S JUST LIKE USING AN ATM MACHINE FROM NOW...*If you ever used it before* 
+
+### Normal Installation (For people who want detailed Explanation!)
+
 ##### 1. Download and Install Essentials
 - Head to Google Play Store or any App Store and download [Termux](https://play.google.com/store/apps/details?id=com.termux) and [Termux:API](https://play.google.com/store/apps/details?id=com.termux.api&hl=en)
 ![N|Solid](https://images2.imgbox.com/7d/e0/A5OllIiS_o.png "Install Termux")
