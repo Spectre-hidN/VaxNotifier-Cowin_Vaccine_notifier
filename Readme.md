@@ -25,7 +25,7 @@ This tool is made to automate the task of checking vaccine availability so that 
 ```sh
 termux-setup-storage && sleep 5 && unzip storage/downloads/VaxNotifier_release.zip && sleep 2 && sh setup.sh && echo 'RESTART THIS APP NOW! (Press exit from notification pannel)'
 ```
-*__Press Enter Whenever it asks you to Choose something.__* *Or just, press enter whenever it looks stuck...*
+*__Press Enter to start updating...__* *You may get to ask to replace the current version with the new one while updating. Just type 'Y' and press __ENTER__* 
 
 4. Copy and paste or Type the below command and press __ENTER__!
 ```sh
