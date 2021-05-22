@@ -18,7 +18,7 @@ This tool is made to automate the task of checking vaccine availability so that 
 ### Non-Techie Installation (Blind Installation!)
 1. Download and Install [Termux](https://play.google.com/store/apps/details?id=com.termux) and [Termux:API](https://play.google.com/store/apps/details?id=com.termux.api&hl=en)
 
-2. Download the script files. [CLICK HERE TO DOWNLOAD](https://github.com/n00b-spectre/VaxNotitfier-Cowin_Vaccine_notifier/releases/download/v1.5/VaxNotifier_release.zip)
+2. Download the script files. [CLICK HERE TO DOWNLOAD](https://github.com/n00b-spectre/VaxNotitfier-Cowin_Vaccine_notifier/releases/download/v1.51/VaxNotifier_release.zip)
 
 3. Copy and paste the below nonsense in the termux and press __ENTER__!
 
