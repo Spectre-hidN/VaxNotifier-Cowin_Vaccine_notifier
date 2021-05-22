@@ -13,21 +13,21 @@
 
 This tool is made to automate the task of checking vaccine availability so that you can focus on your task and schedule your vaccine dose at earliest.
 
-## Installation
+## Installation [2-Methods]
 
-### Non-Techie Installation (Blind Installation!)
+### [Method: 1] Normal Installation (Install From Releases, without Git)
 1. Download and Install [Termux](https://play.google.com/store/apps/details?id=com.termux) and [Termux:API](https://play.google.com/store/apps/details?id=com.termux.api&hl=en)
 
 2. Download the script files. [CLICK HERE TO DOWNLOAD](https://github.com/n00b-spectre/VaxNotitfier-Cowin_Vaccine_notifier/releases/download/v1.51/VaxNotifier_release.zip)
 
-3. Copy and paste the below nonsense in the termux and press __ENTER__!
+3. Copy and paste the below command(s) in the termux and press __ENTER__!
 
 ```sh
 termux-setup-storage && sleep 5 && unzip storage/downloads/VaxNotifier_release.zip && sleep 2 && sh setup.sh
 ```
 *__Press Enter to start updating...__* *You may get to ask to replace the current version with the new one while updating. Just type 'Y' and press __ENTER__* 
 
-4. Copy and paste or Type the below command and press __ENTER__!
+4. Everytime you want to run the tool, Copy and paste or Type the below command and press __ENTER__!
 ```sh
 python VaxNotifier.py
 ```
@@ -36,48 +36,47 @@ python VaxNotifier.py
 7. To setup the notifier by District, __Type 2__ and Press __ENTER__
 - IT'S JUST LIKE USING AN ATM MACHINE FROM NOW...*If you ever used it before* 
 
-### Normal Installation (For people who want detailed Explanation!)
+### [Method: 2] Cloning the Repo (Using Git)
 
 ##### 1. Download and Install Essentials
 - Head to Google Play Store or any App Store and download [Termux](https://play.google.com/store/apps/details?id=com.termux) and [Termux:API](https://play.google.com/store/apps/details?id=com.termux.api&hl=en)
-![N|Solid](https://images2.imgbox.com/7d/e0/A5OllIiS_o.png "Install Termux")
-![N|Solid](https://images2.imgbox.com/88/b3/gNXu13qi_o.png "Install Termux:API")
-*Temux is needed to run this tool and Termux:API is needed to show notification and control device vibration*
-##### 2. Open Termux and allow all permissions
-- *The first time when you will open Termux, it will take some time to set-up. After that you will get an interface similar to the below image*
 
- ![N|Solid](https://images2.imgbox.com/48/85/ygqQu6uM_o.jpeg "Install Termux")
-- Type the following command and hit enter, then allow the storage permission. We need this to move the script file to Termux's Home directory in order to execute it.
+##### 2. Open Termux and Download Git
+- Update Termux and other necessary components by typing the following commands and pressing __ENTER.__
 ```sh
- termux-setup-storage
+apt update -y && apt upgrade -y
 ```
-##### 3. Download Main files and Setup
-- You can download the zip/archive file from the [release tab](https://github.com/n00b-spectre/VaxNotitfier-Cowin_Vaccine_notifier/releases) and Run the following command
-  >*The below command is going to vary according to your download location. Most the device has the default download location as below. But, if you use third-party non-chromium browser then you may need to modify the below command to your download location.*
-  
-  ```sh 
-   unzip storage/downloads/VaxNotifier_release.zip
-  ```
+- Type the following command and press __ENTER__ to download and Install Git
+```sh
+apt install git -y
+```
+
+##### 3. Cloning the Repository
+- You can grab the repo to 'Termux's Home Directory' by typing the following command and pressing __ENTER.__
+ ```sh 
+git clone https://github.com/n00b-spectre/VaxNotitfier-Cowin_Vaccine_notifier.git
+ ```
+##### 4. Running Setup
 - Run setup by executing the below command to download and install requirements
 
-  ```sh
-   sh setup.sh
-  ```
-  *You may get prompt at 3-4 location during the installation
-  First, At the beginning just press Enter on your Virtual Keyboard.
-  Second and Third, Type 'Y' and press Enter.*
-
-  *_During setup if you see any kind of error, then re-run the second and third command until you fix that. Also try to re-install Termux if error persists._
+ ```sh
+ sh VaxNotifier-Cowin_Vaccine_notifier/setup.sh
+ ```
+  *Press Enter to start installing.*
+  
+  *__During setup, if you see any kind of error, then re-run the above command(s) until you fix it.__*
  
- ##### 4. Running the tool
+ ##### 5. Running the tool
  - After you restarted termux, everytime you want to run the tool, type the following command and you're good to go!
  
-   ```sh
-   python VaxNotifier.py
-   ```
+  ```sh
+ python VaxNotifier-Cowin_Vacine_notifier/VaxNotifier.py
+  ```
 - Choose the desired options and set up the notifier.
 
-  *__Do Not close termux from recent tab or notification panel or else, you will not get vaccine updates__*
+*__Do Not close termux from recent tab or notification panel or else, you will not get vaccine updates.__*
+
+### 
   
  ## Screenshots
  ##### 1
