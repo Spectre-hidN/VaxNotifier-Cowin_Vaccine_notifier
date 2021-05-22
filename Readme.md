@@ -23,7 +23,7 @@ This tool is made to automate the task of checking vaccine availability so that 
 3. Copy and paste the below nonsense in the termux and press __ENTER__!
 
 ```sh
-termux-setup-storage && sleep 5 && unzip storage/downloads/VaxNotifier_release.zip && sleep 2 && sh setup.sh'
+termux-setup-storage && sleep 5 && unzip storage/downloads/VaxNotifier_release.zip && sleep 2 && sh setup.sh
 ```
 *__Press Enter to start updating...__* *You may get to ask to replace the current version with the new one while updating. Just type 'Y' and press __ENTER__* 
 
