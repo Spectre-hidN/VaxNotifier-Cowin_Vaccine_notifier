@@ -203,8 +203,7 @@ if choice == '1':
     
     print("\033[38;5;138m++ Vaccination By Age ++\033[0m")
     print(f"\033[38;5;196m+\033[0m \033[38;5;45mTotal Vaccinated: \033[0m{str(total_vaccinated)}")
-    print(f"\033[38;5;196m+\033[0m \033[38;5;153mTotal Vaccinated [18-30]: \033[0m{str(parsed_json['vaccinationByAge']['vac_18_30'])}")
-    print(f"\033[38;5;196m+\033[0m \033[38;5;171mTotal Vaccinated [30-45]: \033[0m{str(parsed_json['vaccinationByAge']['vac_30_45'])}")
+    print(f"\033[38;5;196m+\033[0m \033[38;5;153mTotal Vaccinated [18-45]: \033[0m{str(parsed_json['vaccinationByAge']['vac_18_45'])}")
     print(f"\033[38;5;196m+\033[0m \033[38;5;154mTotal Vaccinated [45-60]: \033[0m{str(parsed_json['vaccinationByAge']['vac_45_60'])}")
     print(f"\033[38;5;196m+\033[0m \033[38;5;40mTotal Vaccinated [60+]: \033[0m{str(parsed_json['vaccinationByAge']['above_60'])}")
     
